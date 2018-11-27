@@ -1,0 +1,17 @@
+
+.btn {
+	font-size: 12px;
+	padding: 8px 18px;
+	text-decoration: none;
+	color: white;
+	border-radius: 0px 0px 0px 0px
+}
+
+.btn-container {
+	margin: 20px 0px 0px 0px;
+}
+
+.btn:hover {
+	opacity: .9;
+}
+
