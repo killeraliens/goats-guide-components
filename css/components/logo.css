@@ -1,11 +1,26 @@
-#logo {
+.logo {
 	width: 60px;
 	height: 60px;
-	margin-right: 10px;
+	
+	
+
 }
 
-#logo-small {
+.logo-small {
 	width: 40px;
 	height: 40px;
 
+}
+
+.logo-text {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 0px 10px;
+	}
+
+.logo-pair {
+	display: flex;
+	position: relative;
+	right: 30px;
 }
