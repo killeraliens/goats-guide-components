@@ -23,14 +23,45 @@ font-family: 'Heebo', sans-serif; */
 @import url("components/color.css");
 @import url("components/nav.css");
 @import url("components/logo.css");
+@import url("components/icon.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+
+
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: rgb(245,245,245);
+	color: rgb(240,240,240);
 	background-color: black;
+	margin: 0;
+	/*background-color: #0B0B0B; */
 }
 
 h1 {
-	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 38px; 
+	
+	/*color: #646464; */
+	/*color: #979797; */
 }
+
+h2 {
+	font-size:22px;
+}
+
+h3 {
+	font-size:18px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255,49,0);
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(255,49,0);
+	opacity: .8;
+}
+
 
