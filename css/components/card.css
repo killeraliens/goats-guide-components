@@ -2,13 +2,14 @@
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
+	/*background-image: url("../../images/testimg.jpg"); a reminder of file paths*/
 }
 
 /*
 .card p {
 	text-align: left;
 }
-
+ 
 .card h2 {
 	text-align: left;
 }

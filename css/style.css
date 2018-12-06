@@ -11,9 +11,9 @@ font-family: 'Hind', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Heebo', sans-serif; */
 
-/*-----PLACEHOLDER IMAGES----- */
-@import url("http://placehold.it/50x50");
-@import url("https://picsum.photos/200/150/?random");
+/*-----PLACEHOLDER IMAGES REFS----- */
+/* @import url("http://placehold.it/50x50");
+@import url("https://picsum.photos/200/150/?random"); */
            
 
 /*-----COMPONENTS DESIGN----- */
@@ -27,7 +27,7 @@ font-family: 'Heebo', sans-serif; */
 @import url("components/card.css");
 @import url("components/banner.css");
 @import url("components/footer.css");
-
+@import url("components/avatar.css");
 
 
 body {
@@ -40,7 +40,6 @@ body {
 
 h1 {
 	font-size: 38px; 
-	
 	/*color: #646464; */
 	/*color: #979797; */
 }

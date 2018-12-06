@@ -1,11 +1,11 @@
 #logo {
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 }
 
 #logo-small {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 }
 
 #logo-text {
@@ -15,9 +15,18 @@
 	padding: 0px 10px;
 	}
 
-.logo-pair {
-	display: flex;
-	position: relative;
-	right: 30px;
-	align-items:center;
+.logo-text-fixed {
+	text-align: center;
+	position: fixed;
+	width:150px;
+	left: 50%;
+	margin-left: -75px;
+
 }
+
+.pair-off-center {
+ position: relative;
+ right: 25px;
+ }
+
+
