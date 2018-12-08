@@ -28,15 +28,17 @@ font-family: 'Heebo', sans-serif; */
 @import url("components/banner.css");
 @import url("components/footer.css");
 @import url("components/avatar.css");
-
+@import url("components/dropdown.css");
+@import url("components/datacard.css");
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: rgb(240,240,240);
-	background-color: black;
+	color: rgb(230,230,230);
 	margin: 0;
+	background-color: black;
 	/*background-color: #0B0B0B; */
 }
+
 
 h1 {
 	font-size: 38px; 

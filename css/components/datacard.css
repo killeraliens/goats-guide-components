@@ -1,0 +1,74 @@
+.datacard {
+	padding: 10px;
+	height: 200px;
+	position: relative;
+	} 
+
+.datacard-event {
+background: linear-gradient(90deg,
+	rgba(0,0,0,1) 0%,
+	rgba(0,0,0,.4) 100%),
+url("https://picsum.photos/200/150/?random");
+background-size: cover;
+
+	} 
+
+.datacard i {
+	font-size: 20px;
+}
+
+
+.datacard-header {
+	position: absolute;
+	left: 70px;
+	top: 10px;
+}
+
+
+.datacard-title h5{
+	margin: 0;
+	flex-shrink: 0 0 auto;
+}
+
+.datacard-title {	
+
+}
+
+.datacard-descript {
+	margin-right: 10px;
+	font-size: 12px;
+
+}
+
+.datacard-tags {
+	position: absolute;
+	bottom: 5px;
+	font-size: 12px;
+}
+.datacard-tags p {
+	margin: 0;
+}
+
+.tags-loc {
+	bottom: 65px;
+}
+
+.tags-project {
+	bottom: 35px;
+}
+
+.skill {
+	padding: 5px 8px;
+	background-color: #2B2B2B;
+	margin: 0;
+}
+
+.project {
+	padding: 5px 8px;
+	background-color: #2B2B2B;
+
+}
+
+.tags-loc {
+	color: #4A4A4A;
+}

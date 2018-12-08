@@ -12,3 +12,23 @@
 	margin-bottom: 10px;
 }
 
+
+
+.nav-menu-section {
+	display: flex;
+	align-items:center;
+
+}
+
+
+.flex {
+	display:flex;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.headspace {
+	margin: 10px 0px;
+}

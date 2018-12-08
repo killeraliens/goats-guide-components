@@ -1,9 +1,10 @@
-
+/* */
 
 .form { 
-	background-color: rgb(26,26,26);
-	padding: 20px 20px 20px 20px;
-
+	background-color: rgb(10,10,10);
+	padding: 10px 20px 20px 20px;
+	color: #D8D8D8;
+	margin-top: 40px;
  }
 
 
@@ -13,8 +14,8 @@
 
 .field-label {
 	font-size: 14px;
-	color: rgb(80,80,80)
 	font-weight: bold;
+	;
 }
 
 .field-entry {

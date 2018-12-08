@@ -10,14 +10,21 @@
 
 #logo-text {
 	font-family: 'UnifrakturMaguntia', cursive;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	padding: 0px 10px;
 	}
 
-.logo-text-fixed {
+#logo-text-md {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 0px 10px;
+	}
+
+.logo-text-absolute {
 	text-align: center;
-	position: fixed;
+	position: absolute;
 	width:150px;
 	left: 50%;
 	margin-left: -75px;
