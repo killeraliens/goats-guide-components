@@ -2,7 +2,12 @@
 	padding: 10px;
 	height: 200px;
 	position: relative;
+	margin-bottom: 20px;
 	} 
+
+.datacard:hover {
+	background: rgba(9,9,9,1)
+}
 
 .datacard-event {
 background: linear-gradient(90deg,
@@ -14,29 +19,43 @@ background-size: cover;
 	} 
 
 .datacard i {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
-.datacard-header {
+
+.datacard-title {
 	position: absolute;
 	left: 70px;
 	top: 10px;
+	
 }
-
-
 .datacard-title h5{
 	margin: 0;
-	flex-shrink: 0 0 auto;
 }
 
-.datacard-title {	
+.datacard-stats{
+	position: absolute;
+	top: 10px;
+	right: 60px;
+}
+.datacard-badge{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
 
+.datacard-descript-container {
+	padding:10px;
 }
 
 .datacard-descript {
-	margin-right: 10px;
 	font-size: 12px;
+	text-align: center;
+	display: inline-block;		
+}
+
+.tags-container {
 
 }
 
@@ -44,9 +63,12 @@ background-size: cover;
 	position: absolute;
 	bottom: 5px;
 	font-size: 12px;
+
+
 }
 .datacard-tags p {
 	margin: 0;
+	margin-top: 2px;
 }
 
 .tags-loc {
@@ -54,13 +76,18 @@ background-size: cover;
 }
 
 .tags-project {
-	bottom: 35px;
+	bottom: 40px;
+}
+
+.tags-skill {
+
 }
 
 .skill {
 	padding: 5px 8px;
 	background-color: #2B2B2B;
 	margin: 0;
+
 }
 
 .project {

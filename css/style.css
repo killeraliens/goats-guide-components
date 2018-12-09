@@ -14,7 +14,7 @@ font-family: 'Heebo', sans-serif; */
 /*-----PLACEHOLDER IMAGES REFS----- */
 /* @import url("http://placehold.it/50x50");
 @import url("https://picsum.photos/200/150/?random"); */
-           
+      
 
 /*-----COMPONENTS DESIGN----- */
 /*@import url("components/formbase.css"); */
@@ -30,6 +30,7 @@ font-family: 'Heebo', sans-serif; */
 @import url("components/avatar.css");
 @import url("components/dropdown.css");
 @import url("components/datacard.css");
+@import url("components/tabs.css");
 
 body {
 	font-family: 'Roboto', sans-serif;

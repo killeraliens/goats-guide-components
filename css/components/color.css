@@ -2,6 +2,9 @@
 	background-color: rgb(255,49,0);
 }
 
+.swatch-orange:hover {
+	darken(rgb(255,49,0), 50%)
+}
 .color-white {
 	color: rgb(230,230,230);
 }
