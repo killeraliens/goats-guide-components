@@ -1,0 +1,44 @@
+.icon-pos {
+	width: 48px;
+	height: 48px;
+	
+}
+
+.stats {
+	color: #4A4A4A;
+	text-align: center;
+}
+.stats h6{
+	margin: 0;
+	padding: 0;
+}
+
+.badge-btn {
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.badge {
+	font-family: arial;
+	color: white;
+	line-height: 20px;
+	padding: 0;
+	min-width: 20px;
+}
+
+.badge3 {
+	padding: 5px 6px 5px 4px;
+	border-radius: 50%;
+} 
+
+.badge2 {
+	padding: 3px 3px 3px 3px;
+	border-radius: 50%;
+	width: 26px;
+} 
+
+
+

@@ -1,11 +1,81 @@
-.orange-bg {
+.swatch-orange {
 	background-color: rgb(255,49,0);
 }
 
-.white-bg {
-	background-color: rgb(245,245,245);
+.swatch-orange:hover {
+	darken(rgb(255,49,0), 50%)
+}
+.color-white {
+	color: rgb(230,230,230);
 }
 
-.drk-grey {
-	background-color: rgb(26,26,26);
+
+.swatch {
+	width: 60px;
+	height: 60px;
 }
+
+.swatch1{
+	background-color: #D8D8D8;
+}
+.color1{
+	color: #D8D8D8;
+}
+.swatch1a{
+	background-color: #9B9B9B;
+}
+
+
+.swatch2 {
+	background-color: #4A4A4A;
+}
+.color2 {
+	color: #4A4A4A;
+}
+
+.swatch3{
+	background-color: rgb(62,62,62);
+}
+.color3{
+	color: rgb(62,62,62);
+}
+
+.swatch4 {
+	background-color: #2B2B2B;
+}
+.color4 {
+	color: #2B2B2B;
+}
+.swatch5 {
+	background-color: rgb(12,12,12);
+}
+.color5 {
+	color: rgb(10,10,10);
+}
+
+
+/* COLORS FROM SKETCH 
+	light greys
+	color: #D8D8D8;  light grey (undergrad highlight grey)
+	#4A4A4A  deselected grey (undo/save buttons, map)
+
+	med greys use on black
+	#2B2B2B; deselected icons on black / borders
+	
+	dark greys use on black
+	background: rgb(9,9,9);
+	
+
+	fill map overlay darken gradient
+	background-color: rgba(0,0,0,4);
+
+
+
+
+
+
+
+
+
+
+	 */
